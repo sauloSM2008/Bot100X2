@@ -94,30 +94,9 @@
       transition: background 0.3s;
     }
 
-    .dialog-button:hover {
-      background: #0056b3;
-    }
+    
 
-    .price-info {
-      margin-top: 20px;
-      font-size: 18px;
-      color: #333;
-    }
-
-    .buy-button {
-      padding: 10px 20px;
-      background: #28a745;
-      color: #fff;
-      border: none;
-      border-radius: 5px;
-      font-size: 16px;
-      cursor: pointer;
-      text-decoration: none;
-      transition: background 0.3s;
-      display: inline-block;
-      margin-top: 10px;
-    }
-
+    .
     .buy-button:hover {
       background: #218838;
     }
@@ -126,18 +105,27 @@
       background: #21222B;
       border-radius: 8px;
       margin-bottom: 10px;
-      width: 100px;
+      width: 130px;
       padding: 20px;
+    }
+    
+    #bt:hover {
+      transform: scale(1.05);
     }
     
     #bt {
       background: #5663F9;
       border: none;
       border-radius: 8px;
-      padding: 10px 50px;
+      padding: 8px 30px;
       color: white;
       font-weight: bold;
       font-size: 16px;
+    }
+    
+    #mb {
+      display: flex;
+      gap: 10px
     }
   </style>
 </head>
@@ -169,7 +157,14 @@
       <button class="dialog-button" id="okBtn">OK</button>
     </div>
   </div>
- <button onclick="btn()" id="bt">MANUAL DO BOT</button>
+  
+  <div id="mb">
+    
+    <button onclick="btn()" id="bt">MANUAL DO BOT</button>
+  
+  <button onclick="bx()" id="bt" style="background: black">BAIXAR APLICATIVO</button>
+  </div>
+ 
   
 
   <script>
@@ -204,9 +199,15 @@
       window.location.href = "manua.html"
     }
     
+    function bx() {
+      window.open("https://www.mediafire.com/file/qbywa3gcvq29g47/BOT_100X.apk/file")
+    }
+    
+    
     
   </script>
 
 </body>
 
-</html>
+      </html>
+      
