@@ -77,6 +77,29 @@
                 flex: 1 1 calc(100% - 32px);
             }
         }
+        
+        #bt1 {
+          background: #1B1C23;
+          color: #FEFEFF;
+          font-weight: bold;
+          font-size: 16px;
+          padding: 8px 30px;
+          border: none;
+          border-radius: 5px;
+          
+        }
+        
+         #bt2 {
+          background: #1B1C23;
+          color: #FEFEFF;
+          font-weight: bold;
+          font-size: 16px;
+          padding: 8px 30px;
+          border: none;
+          border-radius: 5px;
+          margin-top: 5px;
+          
+        }
     </style>
 </head>
 <body>
@@ -85,24 +108,28 @@
         <div class="gallery-subtitle">Cadastre-se agora e comece a ganhar dinheiro com as melhores casas de apostas!</div>
         <div class="image-column">
             <div class="column">
-                <img onclick="xb()" src="1xb.png" alt="Imagem 1">
+                <img  src="1xb.png" alt="Imagem 1">
                 <p style="font-weight: bold">CÓDIGO PROMOCIONAL: 90499</p>
-                <img src="olaa.png" alt="Imagem 2">
+               <div class="bts">
+                 <button onclick="xb()" id="bt1">REGISTAR-SE</button>
+                <button onclick="xbb()" id="bt2">BAIXAR APLICATIVO</button>
+                 
+               </div> 
+             
             </div>
             <div class="column">
-                <img onclick="bet()" src="bet.png" alt="Imagem 3">
-                <img src="olaa.png" alt="Imagem 4">
-            </div>
-            <div class="column">
-                <img src="olaa.png" alt="Imagem 5">
-                <img src="olaa.png" alt="Imagem 6">
-            </div>
+                <img  src="bet.png" alt="Imagem 3">
+              <button onclick="bet()" id="bt1">REGISTAR-SE</button>
         </div>
     </div>
     
     <script>
       function xb() {
         window.open("https://affpa.top/L?tag=d_2214697m_97c_&site=2214697&ad=97")
+      }
+      
+      function xbb() {
+        window.open("https://affpa.top/L?tag=d_2214697m_70865c_&site=2214697&ad=70865")
       }
       
       function bet() {
